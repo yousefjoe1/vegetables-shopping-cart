@@ -36,7 +36,7 @@ const Nav = (props) => {
   return (
     <header className={`header ${isscroll && "fixed-header"}`}>
       <div className="header-div">
-        <h1>Vegitables</h1>
+        <h1>Vegetables</h1>
         <div className="right-nav">
           <div className="total__list-count">
             <p>Items Num: {data.length}</p>
