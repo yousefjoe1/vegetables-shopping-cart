@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/vegetables-shopping-cart/static/css/main.57e0662c.css",
-    "main.js": "/vegetables-shopping-cart/static/js/main.42f30cfd.js",
+    "main.css": "/vegetables-shopping-cart/static/css/main.132653b3.css",
+    "main.js": "/vegetables-shopping-cart/static/js/main.84c741be.js",
     "static/media/emptycart.jpeg": "/vegetables-shopping-cart/static/media/emptycart.233d2a5ac79645528876.jpeg",
     "index.html": "/vegetables-shopping-cart/index.html",
-    "main.57e0662c.css.map": "/vegetables-shopping-cart/static/css/main.57e0662c.css.map",
-    "main.42f30cfd.js.map": "/vegetables-shopping-cart/static/js/main.42f30cfd.js.map"
+    "main.132653b3.css.map": "/vegetables-shopping-cart/static/css/main.132653b3.css.map",
+    "main.84c741be.js.map": "/vegetables-shopping-cart/static/js/main.84c741be.js.map"
   },
   "entrypoints": [
-    "static/css/main.57e0662c.css",
-    "static/js/main.42f30cfd.js"
+    "static/css/main.132653b3.css",
+    "static/js/main.84c741be.js"
   ]
 }
