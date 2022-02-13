@@ -8,9 +8,7 @@ import { addProduct, decrease, increase } from "./redux/selectSlice";
 
 const App = () => {
   const data = useSelector((state) => state.allProducts.products);
-  const cartProducts = useSelector((state) => state.allProducts.cart);
-  const [isadd, setIsadd] = useState(false);
-
+  const [anime, setAnime] = useState("");
   const dispatch = useDispatch();
 
   const incre = (e) => {
@@ -23,11 +21,15 @@ const App = () => {
 
   const addpro = (id) => {
     dispatch(addProduct(id));
+    setAnime("anime-cart");
+    setTimeout(() => {
+      setAnime("");
+    }, 1000);
   };
 
   return (
     <React.Fragment>
-      <Nav />
+      <Nav iconanim={anime} />
       <div className="product__container">
         {data.map((veg) => (
           <div key={veg.id} className="product">
@@ -41,7 +43,7 @@ const App = () => {
             </div>
             {veg.selected && <FcApproval className="selected-icon" />}
             <button onClick={(e) => addpro(veg.id)} className="add-product-btn">
-              Add To Cart{" "}
+              Add To Cart
             </button>
           </div>
         ))}

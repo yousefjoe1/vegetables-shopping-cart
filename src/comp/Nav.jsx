@@ -43,7 +43,7 @@ const Nav = (props) => {
             <p>Total: {Totalprice} $ </p>
           </div>
           <div className="icon-div">
-            <ImCart onClick={showCart} className="icon" />
+            <ImCart onClick={showCart} className={`icon ${props.iconanim} `} />
             {cartisopen && (
               <div className="selected__products">
                 <button onClick={hideCart} className="close-cart-btn">

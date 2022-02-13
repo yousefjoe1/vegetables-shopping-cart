@@ -33,6 +33,22 @@
   cursor: pointer;
 }
 
+.right-nav .anime-cart {
+  animation-name: iconanime;
+  animation-duration: 1s;
+  animation-timing-function: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes iconanime {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .total__list-count p {
   font-size: 18px;
   font-weight: bold;
